@@ -1,0 +1,36 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Variables de entorno
+.env
+.env.*
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+
+# Tokens y credenciales
+*.token
+token.txt
+tokens.txt
+credentials.json
+secrets.json
+
+# Archivos sensibles
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
